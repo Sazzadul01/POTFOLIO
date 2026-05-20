@@ -1,0 +1,85 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-primary: #00f2ff;
+  --color-brand-secondary: #7000ff;
+  --color-brand-accent: #ff00c8;
+  --color-bg-dark: #030712;
+  --color-bg-card: rgba(17, 24, 39, 0.4);
+  --color-border-accent: rgba(0, 242, 255, 0.1);
+}
+
+@layer base {
+  body {
+    @apply bg-bg-dark text-slate-200 font-sans selection:bg-brand-primary/30 selection:text-white;
+    overflow-x: hidden;
+    background-image: 
+      radial-gradient(circle at 50% 50%, rgba(0, 242, 255, 0.05) 1px, transparent 1px),
+      radial-gradient(circle at 100% 100%, rgba(112, 0, 255, 0.05) 0%, transparent 40%);
+    background-size: 40px 40px, 100% 100%;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-sans font-extrabold tracking-tight text-white;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/[0.03] backdrop-blur-[12px] border border-white/10 rounded-[24px];
+  }
+  
+  .glass-premium {
+    @apply bg-gradient-to-br from-white/[0.08] to-transparent backdrop-blur-[20px] border border-white/20 rounded-[32px] shadow-2xl;
+  }
+
+  .glow-cyan {
+    box-shadow: 0 0 30px rgba(0, 242, 255, 0.2);
+  }
+
+  .glow-purple {
+    box-shadow: 0 0 30px rgba(112, 0, 255, 0.2);
+  }
+
+  .text-glow-cyan {
+    text-shadow: 0 0 15px rgba(0, 242, 255, 0.6);
+  }
+
+  .text-glow-purple {
+    text-shadow: 0 0 15px rgba(112, 0, 255, 0.6);
+  }
+
+  .neon-border {
+    @apply border-brand-primary/50 shadow-[0_0_15px_rgba(0,242,255,0.3)];
+  }
+
+  .skill-bar {
+    @apply h-1.5 bg-white/5 rounded-full relative overflow-hidden;
+  }
+
+  .skill-fill {
+    @apply h-full bg-gradient-to-r from-brand-primary to-brand-secondary rounded-full;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-bg-dark;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-800 rounded-full hover:bg-brand-primary/50 transition-colors;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+ */
