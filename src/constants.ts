@@ -53,80 +53,80 @@ export const STATS = [
   { label: 'Automation Flows', value: 25, icon: Cpu },
 ];
 
-export const SKILLS = {
-  ai_data: [
-    { name: 'Artificial Intelligence', level: 90 },
-    { name: 'Machine Learning', level: 85 },
-    { name: 'Generative AI', level: 92 },
-    { name: 'LangChain', level: 88 },
-    { name: 'RAG', level: 90 },
-    { name: 'AI Agents', level: 85 },
-    { name: 'Data Analysis', level: 95 },
-    { name: 'Power BI', level: 92 },
-    { name: 'Excel', level: 98 },
-  ],
-  programming: [
-    { name: 'JavaScript', level: 88 },
-    { name: 'HTML/CSS', level: 92 },
-    { name: 'C++', level: 80 },
-    { name: 'PostgreSQL/MySQL', level: 85 },
-  ],
-  tools: [
-    { name: 'Git/GitHub', icon: Github },
-    { name: 'n8n', icon: Cpu },
-    { name: 'VS Code', icon: Terminal },
-    { name: 'ChatGPT', icon: MessageSquare },
-  ],
-  soft: ['Teamwork', 'Communication', 'Time Management', 'Problem Solving']
-};
+// export const SKILLS = {
+//   ai_data: [
+//     { name: 'Artificial Intelligence', level: 90 },
+//     { name: 'Machine Learning', level: 85 },
+//     { name: 'Generative AI', level: 92 },
+//     { name: 'LangChain', level: 88 },
+//     { name: 'RAG', level: 90 },
+//     { name: 'AI Agents', level: 85 },
+//     { name: 'Data Analysis', level: 95 },
+//     { name: 'Power BI', level: 92 },
+//     { name: 'Excel', level: 98 },
+//   ],
+//   programming: [
+//     { name: 'JavaScript', level: 88 },
+//     { name: 'HTML/CSS', level: 92 },
+//     { name: 'C++', level: 80 },
+//     { name: 'PostgreSQL/MySQL', level: 85 },
+//   ],
+//   tools: [
+//     { name: 'Git/GitHub', icon: Github },
+//     { name: 'n8n', icon: Cpu },
+//     { name: 'VS Code', icon: Terminal },
+//     { name: 'ChatGPT', icon: MessageSquare },
+//   ],
+//   soft: ['Teamwork', 'Communication', 'Time Management', 'Problem Solving']
+// };
 
-// export const PROJECTS = [
-//   {
-//     title: 'Medical Chatbot',
-//     description: 'AI-powered healthcare chatbot using LangChain and RAG for intelligent query answering.',
-//     tech: ['LangChain', 'RAG', 'OpenAI', 'Python'],
-//     icon: Stethoscope,
-//     github: '#',
-//     demo: '#',
-//     image: 'https://images.unsplash.com/photo-1576091160550-217359941f3b?auto=format&fit=crop&q=80&w=800'
-//   },
-//   {
-//     title: 'Source Code Analysis Tool',
-//     description: 'AI-powered repository analysis tool that explains and analyzes source code using LLMs.',
-//     tech: ['LLMs', 'Python', 'Vector DB', 'GitHub API'],
-//     icon: Terminal,
-//     github: '#',
-//     demo: '#',
-//     image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=800'
-//   },
-//   {
-//     title: 'AI Chat Agent',
-//     description: 'Smart AI chatbot with memory, OpenAI tools, Wikipedia API, and n8n integration.',
-//     tech: ['n8n', 'OpenAI', 'Wikipedia API', 'Calculator API'],
-//     icon: MessageSquare,
-//     github: '#',
-//     demo: '#',
-//     image: 'https://images.unsplash.com/photo-1531746790731-6c087fecd05a?auto=format&fit=crop&q=80&w=800'
-//   },
-//   {
-//     title: 'Mobile Sales Dashboard',
-//     description: 'Interactive Power BI dashboard featuring sales analytics, map visualizations, and trends.',
-//     tech: ['Power BI', 'DAX', 'SQL', 'Data Modeling'],
-//     icon: LineChart,
-//     github: '#',
-//     demo: '#',
-//     image: 'https://w7.pngwing.com/pngs/888/746/png-transparent-mobile-business-intelligence-dashboard-online-analytical-processing-business-intelligence-software-mobile-software-electronics-gadget-people.png'
-//   },
-//   {
-//     title: 'Excel Sales Dashboard',
-//     description: 'Dynamic sales dashboard with interactive charts, slicers, and performance tracking.',
-//     tech: ['Excel', 'Power Query', 'VBA', 'Pivot Tables'],
-//     icon: BarChart3,
-//     github: '#',
-//     demo: '#',
-//     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800'
-//   }
-// ];
+export const PROJECTS = [
+  {
+    title: 'Medical Chatbot',
+    description: 'AI-powered healthcare chatbot using LangChain and RAG for intelligent query answering.',
+    tech: ['LangChain', 'RAG', 'OpenAI', 'Python'],
+    icon: Stethoscope,
+    github: '#',
+    demo: '#',
+    image: 'https://images.unsplash.com/photo-1576091160550-217359941f3b?auto=format&fit=crop&q=80&w=800'
+  },
+  {
+    title: 'Source Code Analysis Tool',
+    description: 'AI-powered repository analysis tool that explains and analyzes source code using LLMs.',
+    tech: ['LLMs', 'Python', 'Vector DB', 'GitHub API'],
+    icon: Terminal,
+    github: '#',
+    demo: '#',
+    image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=800'
+  },
+  {
+    title: 'AI Chat Agent',
+    description: 'Smart AI chatbot with memory, OpenAI tools, Wikipedia API, and n8n integration.',
+    tech: ['n8n', 'OpenAI', 'Wikipedia API', 'Calculator API'],
+    icon: MessageSquare,
+    github: '#',
+    demo: '#',
+    image: 'https://images.unsplash.com/photo-1531746790731-6c087fecd05a?auto=format&fit=crop&q=80&w=800'
+  },
+  {
+    title: 'Mobile Sales Dashboard',
+    description: 'Interactive Power BI dashboard featuring sales analytics, map visualizations, and trends.',
+    tech: ['Power BI', 'DAX', 'SQL', 'Data Modeling'],
+    icon: LineChart,
+    github: '#',
+    demo: '#',
+    image: 'https://w7.pngwing.com/pngs/888/746/png-transparent-mobile-business-intelligence-dashboard-online-analytical-processing-business-intelligence-software-mobile-software-electronics-gadget-people.png'
+  },
+  {
+    title: 'Excel Sales Dashboard',
+    description: 'Dynamic sales dashboard with interactive charts, slicers, and performance tracking.',
+    tech: ['Excel', 'Power Query', 'VBA', 'Pivot Tables'],
+    icon: BarChart3,
+    github: '#',
+    demo: '#',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800'
+  }
+];
 
 // export const PUBLICATIONS = [
 //   {
