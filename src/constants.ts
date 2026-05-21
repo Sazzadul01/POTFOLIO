@@ -53,32 +53,32 @@ export const STATS = [
   { label: 'Automation Flows', value: 25, icon: Cpu },
 ];
 
-// export const SKILLS = {
-//   ai_data: [
-//     { name: 'Artificial Intelligence', level: 90 },
-//     { name: 'Machine Learning', level: 85 },
-//     { name: 'Generative AI', level: 92 },
-//     { name: 'LangChain', level: 88 },
-//     { name: 'RAG', level: 90 },
-//     { name: 'AI Agents', level: 85 },
-//     { name: 'Data Analysis', level: 95 },
-//     { name: 'Power BI', level: 92 },
-//     { name: 'Excel', level: 98 },
-//   ],
-//   programming: [
-//     { name: 'JavaScript', level: 88 },
-//     { name: 'HTML/CSS', level: 92 },
-//     { name: 'C++', level: 80 },
-//     { name: 'PostgreSQL/MySQL', level: 85 },
-//   ],
-//   tools: [
-//     { name: 'Git/GitHub', icon: Github },
-//     { name: 'n8n', icon: Cpu },
-//     { name: 'VS Code', icon: Terminal },
-//     { name: 'ChatGPT', icon: MessageSquare },
-//   ],
-//   soft: ['Teamwork', 'Communication', 'Time Management', 'Problem Solving']
-// };
+export const SKILLS = {
+  ai_data: [
+    { name: 'Artificial Intelligence', level: 90 },
+    { name: 'Machine Learning', level: 85 },
+    { name: 'Generative AI', level: 92 },
+    { name: 'LangChain', level: 88 },
+    { name: 'RAG', level: 90 },
+    { name: 'AI Agents', level: 85 },
+    { name: 'Data Analysis', level: 95 },
+    { name: 'Power BI', level: 92 },
+    { name: 'Excel', level: 98 },
+  ],
+  programming: [
+    { name: 'JavaScript', level: 88 },
+    { name: 'HTML/CSS', level: 92 },
+    { name: 'C++', level: 80 },
+    { name: 'PostgreSQL/MySQL', level: 85 },
+  ],
+  tools: [
+    { name: 'Git/GitHub', icon: Github },
+    { name: 'n8n', icon: Cpu },
+    { name: 'VS Code', icon: Terminal },
+    { name: 'ChatGPT', icon: MessageSquare },
+  ],
+  soft: ['Teamwork', 'Communication', 'Time Management', 'Problem Solving']
+};
 
 // export const PROJECTS = [
 //   {
