@@ -150,33 +150,33 @@ export const PUBLICATIONS = [
   }
 ];
 
-// export const EXPERIENCE_ACTIVITIES = [
-//   {
-//     title: 'DIU Blood Donors Club',
-//     role: 'Active Volunteer & Coordinator',
-//     period: 'October 2023 - Present',
-//     description: 'Organizing blood donation camps and managing donor databases.',
-//     icon: Users
-//   },
-//   {
-//     title: 'DIU Readers Club',
-//     role: 'Member & Event Organizer',
-//     period: '2022 - Present',
-//     description: 'Promoting literary culture and organizing book discussion events.',
-//     icon: BookOpen
-//   },
-//   {
-//     title: 'Survey Wing',
-//     role: 'Data Collection Specialist',
-//     period: '2023',
-//     description: 'Conducting academic surveys and analyzing responses for research papers.',
-//     icon: Presentation
-//   },
-//   {
-//     title: 'Event Hosting',
-//     role: 'Professional Host',
-//     period: 'January 2014 - October 2017',
-//     description: 'Hosting institutional events, seminars, and networking sessions.',
-//     icon: Trophy
-//   }
-// ];
+export const EXPERIENCE_ACTIVITIES = [
+  {
+    title: 'DIU Blood Donors Club',
+    role: 'Active Volunteer & Coordinator',
+    period: 'October 2023 - Present',
+    description: 'Organizing blood donation camps and managing donor databases.',
+    icon: Users
+  },
+  {
+    title: 'DIU Readers Club',
+    role: 'Member & Event Organizer',
+    period: '2022 - Present',
+    description: 'Promoting literary culture and organizing book discussion events.',
+    icon: BookOpen
+  },
+  {
+    title: 'Survey Wing',
+    role: 'Data Collection Specialist',
+    period: '2023',
+    description: 'Conducting academic surveys and analyzing responses for research papers.',
+    icon: Presentation
+  },
+  {
+    title: 'Event Hosting',
+    role: 'Professional Host',
+    period: 'January 2014 - October 2017',
+    description: 'Hosting institutional events, seminars, and networking sessions.',
+    icon: Trophy
+  }
+];
