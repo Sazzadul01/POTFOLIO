@@ -7,11 +7,11 @@ export const TECH_STACK = [
   "OpenAI", "LangChain", "n8n", "Python", "PostgreSQL", "Power BI", "HuggingFace", "Vector DBs", "Git"
 ];
 
-// export const CERTIFICATIONS = [
-//   { name: "Generative AI Specialist", issuer: "DeepLearning.AI", date: "2025" },
-//   { name: "Professional Data Analyst", issuer: "Microsoft", date: "2025" },
-//   { name: "Automation Professional", issuer: "n8n Academy", date: "2026" }
-// ];
+export const CERTIFICATIONS = [
+  { name: "Generative AI Specialist", issuer: "DeepLearning.AI", date: "2025" },
+  { name: "Professional Data Analyst", issuer: "Microsoft", date: "2025" },
+  { name: "Automation Professional", issuer: "n8n Academy", date: "2026" }
+];
 
 // export const ACHIEVEMENTS = [
 //   { title: "RESEARCH & AI CONTRIBUTOR", description: "Contributed to AI automation and open-source development projects.", icon: Trophy },
