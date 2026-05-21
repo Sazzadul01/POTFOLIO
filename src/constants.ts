@@ -3,9 +3,9 @@
 //  * SPDX-License-Identifier: Apache-2.0
 //  */
 
-// export const TECH_STACK = [
-//   "OpenAI", "LangChain", "n8n", "Python", "PostgreSQL", "Power BI", "HuggingFace", "Vector DBs", "Git"
-// ];
+export const TECH_STACK = [
+  "OpenAI", "LangChain", "n8n", "Python", "PostgreSQL", "Power BI", "HuggingFace", "Vector DBs", "Git"
+];
 
 // export const CERTIFICATIONS = [
 //   { name: "Generative AI Specialist", issuer: "DeepLearning.AI", date: "2025" },
