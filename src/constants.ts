@@ -39,19 +39,19 @@ import { Trophy, CheckCircle2, Star, Github, Linkedin, Mail, FileText, Brain, Cp
 export const USER_NAME = "MD. Sazzadul Islam";
 export const USER_TITLES = ["AI Engineer", "Automation Developer", "Data Analyst", "GenAI Specialist"];
 
-// export const SOCIAL_LINKS = [
-//   { name: 'GitHub', icon: Github, url: 'https://github.com/Sazzadul01' },
-//   { name: 'LinkedIn', icon: Linkedin, url: 'http://www.linkedin.com/in/sazzadul-islam-655a55392' },
-//   { name: 'Gmail', icon: Mail, url: 'mailto:sazzadulislam289@gmail.com' },
-//   { name: 'CV', icon: FileText, url: '/Cv.pdf' },
-// ];
+export const SOCIAL_LINKS = [
+  { name: 'GitHub', icon: Github, url: 'https://github.com/Sazzadul01' },
+  { name: 'LinkedIn', icon: Linkedin, url: 'http://www.linkedin.com/in/sazzadul-islam-655a55392' },
+  { name: 'Gmail', icon: Mail, url: 'mailto:sazzadulislam289@gmail.com' },
+  { name: 'CV', icon: FileText, url: '/Cv.pdf' },
+];
 
-// export const STATS = [
-//   { label: 'AI Projects Built', value: 15, icon: Brain },
-//   { label: 'Research Papers', value: 5, icon: BookOpen },
-//   { label: 'Dashboards Created', value: 10, icon: BarChart3 },
-//   { label: 'Automation Flows', value: 25, icon: Cpu },
-// ];
+export const STATS = [
+  { label: 'AI Projects Built', value: 15, icon: Brain },
+  { label: 'Research Papers', value: 5, icon: BookOpen },
+  { label: 'Dashboards Created', value: 10, icon: BarChart3 },
+  { label: 'Automation Flows', value: 25, icon: Cpu },
+];
 
 // export const SKILLS = {
 //   ai_data: [
