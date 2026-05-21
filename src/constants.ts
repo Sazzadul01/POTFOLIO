@@ -128,27 +128,27 @@ export const PROJECTS = [
   }
 ];
 
-// export const PUBLICATIONS = [
-//   {
-//     title: 'IEEE QPAIN 2026',
-//     description: 'Research papers accepted for IEEE Quality of Experience in Artificial Intelligence.',
-//     items: [
-//       'A Comparative Analysis of Deep Ensemble Learning for Enhanced Multi-Class Skin Disease Classification',
-//       'Predicted Impact of Artificial Intelligence on Personalized Learning in Higher Education.',
-//       '1st International Conference on Smart Agriculture and Sustainable Development'
-//     ],
-//     type: 'Research Paper',
-//   },
-//   {
-//     title: 'Datasets & Open Source',
-//     description: 'Published agricultural and plant pathology datasets for AI and machine learning research.',
-//     items: [
-//       ' RoseLeafVision: A Comprehensive Multi-Class Image Dataset for Accurate Rose Leaf Disease Detection.',
-//       'High Resolution Rose Growth Stage Image Dataset from Golap Gram, Savar, Bangladesh for Machine Learning and Precision Agriculture'
-//     ],
-//     type: 'Dataset',
-//   }
-// ];
+export const PUBLICATIONS = [
+  {
+    title: 'IEEE QPAIN 2026',
+    description: 'Research papers accepted for IEEE Quality of Experience in Artificial Intelligence.',
+    items: [
+      'A Comparative Analysis of Deep Ensemble Learning for Enhanced Multi-Class Skin Disease Classification',
+      'Predicted Impact of Artificial Intelligence on Personalized Learning in Higher Education.',
+      '1st International Conference on Smart Agriculture and Sustainable Development'
+    ],
+    type: 'Research Paper',
+  },
+  {
+    title: 'Datasets & Open Source',
+    description: 'Published agricultural and plant pathology datasets for AI and machine learning research.',
+    items: [
+      ' RoseLeafVision: A Comprehensive Multi-Class Image Dataset for Accurate Rose Leaf Disease Detection.',
+      'High Resolution Rose Growth Stage Image Dataset from Golap Gram, Savar, Bangladesh for Machine Learning and Precision Agriculture'
+    ],
+    type: 'Dataset',
+  }
+];
 
 // export const EXPERIENCE_ACTIVITIES = [
 //   {
