@@ -13,11 +13,11 @@ export const CERTIFICATIONS = [
   { name: "Automation Professional", issuer: "n8n Academy", date: "2026" }
 ];
 
-// export const ACHIEVEMENTS = [
-//   { title: "RESEARCH & AI CONTRIBUTOR", description: "Contributed to AI automation and open-source development projects.", icon: Trophy },
-//   { title: "AI RESEARCH CONTRIBUTOR", description: "Published and contributed to AI and smart agriculture research papers.", icon: CheckCircle2 },
-//   { title: "Hackathon Winner", description: "Participated in DIU AI-for-Good Hackathon.", icon: Star }
-// ];
+export const ACHIEVEMENTS = [
+  { title: "RESEARCH & AI CONTRIBUTOR", description: "Contributed to AI automation and open-source development projects.", icon: Trophy },
+  { title: "AI RESEARCH CONTRIBUTOR", description: "Published and contributed to AI and smart agriculture research papers.", icon: CheckCircle2 },
+  { title: "Hackathon Winner", description: "Participated in DIU AI-for-Good Hackathon.", icon: Star }
+];
 
 // export const TESTIMONIALS = [
 //   {
