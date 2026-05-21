@@ -19,25 +19,25 @@ export const ACHIEVEMENTS = [
   { title: "Hackathon Winner", description: "Participated in DIU AI-for-Good Hackathon.", icon: Star }
 ];
 
-// export const TESTIMONIALS = [
-//   {
-//     name: "Dr. Ahmed Hassan",
-//     role: "Senior Researcher",
-//     text: "Sazzadul developed an effective AI chatbot with strong understanding of RAG systems and automation workflows.",
-//     image: "https://i.pravatar.cc/150?u=ahmed"
-//   },
-//   {
-//     name: "Sarah Chen",
-//     role: "Product Manager",
-//     text: "His Power BI dashboards improved data visualization and reporting clarity for project analysis.",
-//     image: "https://i.pravatar.cc/150?u=sarah"
-//   }
-// ];
+export const TESTIMONIALS = [
+  {
+    name: "Dr. Ahmed Hassan",
+    role: "Senior Researcher",
+    text: "Sazzadul developed an effective AI chatbot with strong understanding of RAG systems and automation workflows.",
+    image: "https://i.pravatar.cc/150?u=ahmed"
+  },
+  {
+    name: "Sarah Chen",
+    role: "Product Manager",
+    text: "His Power BI dashboards improved data visualization and reporting clarity for project analysis.",
+    image: "https://i.pravatar.cc/150?u=sarah"
+  }
+];
 
-// import { Trophy, CheckCircle2, Star, Github, Linkedin, Mail, FileText, Brain, Cpu, Code2, LineChart, Database, Lightbulb, Stethoscope, Terminal, MessageSquare, BarChart3, BookOpen, Cloud, Layers, Wrench, Users, Presentation} from 'lucide-react';
+import { Trophy, CheckCircle2, Star, Github, Linkedin, Mail, FileText, Brain, Cpu, Code2, LineChart, Database, Lightbulb, Stethoscope, Terminal, MessageSquare, BarChart3, BookOpen, Cloud, Layers, Wrench, Users, Presentation} from 'lucide-react';
 
-// export const USER_NAME = "MD. Sazzadul Islam";
-// export const USER_TITLES = ["AI Engineer", "Automation Developer", "Data Analyst", "GenAI Specialist"];
+export const USER_NAME = "MD. Sazzadul Islam";
+export const USER_TITLES = ["AI Engineer", "Automation Developer", "Data Analyst", "GenAI Specialist"];
 
 // export const SOCIAL_LINKS = [
 //   { name: 'GitHub', icon: Github, url: 'https://github.com/Sazzadul01' },
